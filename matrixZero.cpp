@@ -32,8 +32,8 @@ int main() {
     setMatrixToZero(matrix);
 
     for(auto row : matrix) {
-        for(auto elem : matrix) {
-            cout << elem << " ";
+        for(auto element : row) {
+            cout << element << " ";
         }
 
         cout << endl;
