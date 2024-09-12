@@ -34,5 +34,23 @@ bool solveMaze(vector<vector<int>>& maze, int x, int y) {
 //test cases
 int main() {
 
+    vector<vector<int>> maze = {
+        {0, 0, 1, 0},
+        {1, 0, 1, 0},
+        {0, 0, 0, 0},
+        {0, 1, 1, 0}
+    };
+
+    if(solveMaze(maze, 0, 0)) {
+        for(const auto& row : maze) {
+            for(int cell : row) {
+                cout << cell << " "; //say where we are at
+            }
+            cout << endl;
+        }
+    }
+    else //failed to solve the maze
+        cout << "No solution found." << endl;
+
     return 0;
 }
