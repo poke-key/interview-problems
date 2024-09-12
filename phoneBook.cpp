@@ -22,6 +22,10 @@ int main() {
     phoneBook["RAM"] = "555-3288";
 
     //look up number
-    
+    string name = "RAM";
+    if(phoneBook.find(name) != phoneBook.end())
+        cout << name << "'s phone number is: " << phoneBook[name] << endl;
+    else
+        cout << name << " not found in the phone book." << endl;
 
 }
