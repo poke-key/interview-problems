@@ -30,3 +30,9 @@ bool solveMaze(vector<vector<int>>& maze, int x, int y) {
     maze[x][y] = 0;
     return false;
 }
+
+//test cases
+int main() {
+
+    return 0;
+}
