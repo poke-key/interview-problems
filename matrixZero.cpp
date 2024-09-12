@@ -8,12 +8,15 @@ using namespace std;
 //takes in 2d vector
 void setMatrixToZero(vector<vector<int>>& matrix) {
 
+    int m = matrix.size(); //get size of matrix
+    int n = matrix[0].size(); //get size of beginning
 
 
 }
 
 //test case over here
 int main() {
+
 
 
 
