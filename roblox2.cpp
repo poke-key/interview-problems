@@ -3,7 +3,7 @@
 #include <algorithm>
 
 using namespace std;
-
+ 
 long long solution(vector<int>& cityLine) {
     int n = cityLine.size();
     if (n == 0) return 0; //base case
