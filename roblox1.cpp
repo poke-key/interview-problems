@@ -2,7 +2,7 @@
 #include <string>
 #include <stack>
 
-using namespace std;
+using namespace std; 
 
 class TextEditor {
 private:
