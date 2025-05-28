@@ -16,7 +16,7 @@ def bilbo_steps(n):
     dp[2][1] = 1  # 2
 
     for i in range(3, n + 1):
-        #end with 1-step: can come from either 1-step or 2-step before
+        #recurrance relation, end with 1-step: can come from either 1-step or 2-step before
         dp[i][0] = (dp[i - 1][0] + dp[i - 1][1]) % MOD
         #end with 2-step: only if last step was 1-step
         dp[i][1] = dp[i - 2][0] % MOD
